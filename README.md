@@ -4,15 +4,20 @@ Author: [Peter Muthoma](https://github.com/PeterMuthoma/)
 
 ## Project Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+This repository contains a comprehensive analysis of movie performance, exploring the critical relationship between various factors influencing success in the film industry. 
+
+By leveraging a rich dataset encompassing movie titles, ratings, genres, and gross revenue, this project aims to provide valuable and actionable insights for Microsoft's new movie studio leadership. I will use exploratory data analysis to generate insights for these business stakeholder based on these data
+
 
 ### Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Microsoft, a technology giant, aims to venture into the film industry by establishing a new movie studio. However, lacking expertise in movie production, Microsoft seeks to understand the current landscape of successful films at the box office. The goal of this analysis is to explore and identify the types of films that are currently thriving in the industry.
+
+The analysis will focus on key factors influencing movie success, including genres, average ratings, and gross revenue. By examining the performance of different genres, evaluating critical and audience acclaim, and understanding financial success, we aim to provide actionable insights to the head of Microsoft's new movie studio. These insights will aid in making informed decisions about the type of films to create, ensuring a promising start for Microsoft's venture into original video content.
 
 ### The Data
 
-In the folder `zippedData` are movie datasets from:
+All data for this project are movie datasets from:
 
 * [Box Office Mojo](https://www.boxofficemojo.com/)
 * [IMDB](https://www.imdb.com/)
@@ -20,42 +25,47 @@ In the folder `zippedData` are movie datasets from:
 * [TheMovieDB](https://www.themoviedb.org/)
 * [The Numbers](https://www.the-numbers.com/)
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+The dataset used for this analysis combines information from the above sources, including movie titles, ratings, and financial data. The dataset includes the following columns:
+- `tconst`: Unique identifier for each movie title.
+- `primary_title`: The primary title of the movie.
+- `start_year`: The year the movie was released.
+- `runtime_minutes`: The duration of the movie in minutes.
+- `genres`: Genres associated with the movie.
+- `averagerating`: The average rating of the movie.
+- `numvotes`: The number of votes received by the movie.
+- `studio`: The production studio responsible for the movie.
+- `domestic_gross`: Gross revenue from the domestic market in USD.
+- `foreign_gross`: Gross revenue from the foreign market in USD.
+- `year`: The year of release of the movie.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
 
-## Deliverables
+### Analysis Overview:
 
-There are three deliverables for this project:
+1. **Top Studios Based on Gross Revenue:** We identified the top studios based on both foreign and domestic gross revenue. Understanding the performance of leading studios can provide valuable benchmarks for other production houses and help identify potential partnerships for co-productions.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+2. **Most Produced Genre:** By analyzing the genre distribution in the dataset, we determined the most produced genre in the film industry. This insight can guide filmmakers and studios in choosing genres that have high demand and widespread audience appeal.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+3. **Movie Performance Over the Years:** We tracked the changes in average ratings and the number of votes over the years. This analysis revealed trends in audience engagement and critical acclaim, providing studios with insights into the impact of time on movie success.
 
-### Key Points
+4. **Relationship Between Duration and Average Rating:** We investigated the relationship between the duration of a movie and its average rating. This analysis allows filmmakers to understand how the length of a movie influences audience perception and critical reception.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+5. **Correlation Between Gross Revenue and Average Rating:** By calculating the correlation between gross revenue and average ratings, we gained insights into how ratings impact movie revenue. This information is vital for studios seeking to strike a balance between financial success and critical acclaim.
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+6. **Highest Grossing Genres:** We identified the highest grossing genres based on their financial performance. This information can assist studios in tailoring investment strategies and allocating resources effectively to genres with a proven track record of financial success.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+## Business Recommendations:
 
-## Getting Started
+Based on the analysis, we provide the following concrete business recommendations:
+1. **Genre-Specific Investment Strategies:** Tailor investment strategies based on genres that consistently perform well financially.
+2. **Targeted Marketing and Distribution:** Optimize marketing and distribution strategies based on trends in average ratings and number of votes over time.
+3. **Focus on Critical Acclaim and Audience Engagement:** Balance quality content that receives positive reviews from critics with broad audience appeal.
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+## Folder Structure:
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
 
-## Project Submission and Review
+- `data/`: Contains the original data files used in the analysis.
+- `notebooks/`: Includes Jupyter notebooks with the data analysis and visualizations.
+- `visualizations/`: Stores the charts and visual representations of the findings.
+- `README.md`: This file, providing an overview of the project, its objectives, and recommendations.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
