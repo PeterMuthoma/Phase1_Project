@@ -41,17 +41,20 @@ The dataset used for this analysis combines information from the above sources, 
 
 ### Analysis Overview:
 
-1. **Top Studios Based on Gross Revenue:** We identified the top studios based on both foreign and domestic gross revenue. Understanding the performance of leading studios can provide valuable benchmarks for other production houses and help identify potential partnerships for co-productions.
+1. **Top Studios Based on Gross Revenue:**
+![Alt top genre](zippedData/most popular genre.png)
 
-2. **Most Produced Genre:** By analyzing the genre distribution in the dataset, we determined the most produced genre in the film industry. This insight can guide filmmakers and studios in choosing genres that have high demand and widespread audience appeal.
+We identified the top studios based on both foreign and domestic gross revenue. Understanding the performance of leading studios can provide valuable benchmarks for other production houses and help identify potential partnerships for co-productions.
 
-3. **Movie Performance Over the Years:** We tracked the changes in average ratings and the number of votes over the years. This analysis revealed trends in audience engagement and critical acclaim, providing studios with insights into the impact of time on movie success.
+3. **Most Produced Genre:** By analyzing the genre distribution in the dataset, we determined the most produced genre in the film industry. This insight can guide filmmakers and studios in choosing genres that have high demand and widespread audience appeal.
 
-4. **Relationship Between Duration and Average Rating:** We investigated the relationship between the duration of a movie and its average rating. This analysis allows filmmakers to understand how the length of a movie influences audience perception and critical reception.
+4. **Movie Performance Over the Years:** We tracked the changes in average ratings and the number of votes over the years. This analysis revealed trends in audience engagement and critical acclaim, providing studios with insights into the impact of time on movie success.
 
-5. **Correlation Between Gross Revenue and Average Rating:** By calculating the correlation between gross revenue and average ratings, we gained insights into how ratings impact movie revenue. This information is vital for studios seeking to strike a balance between financial success and critical acclaim.
+5. **Relationship Between Duration and Average Rating:** We investigated the relationship between the duration of a movie and its average rating. This analysis allows filmmakers to understand how the length of a movie influences audience perception and critical reception.
 
-6. **Highest Grossing Genres:** We identified the highest grossing genres based on their financial performance. This information can assist studios in tailoring investment strategies and allocating resources effectively to genres with a proven track record of financial success.
+6. **Correlation Between Gross Revenue and Average Rating:** By calculating the correlation between gross revenue and average ratings, we gained insights into how ratings impact movie revenue. This information is vital for studios seeking to strike a balance between financial success and critical acclaim.
+
+7. **Highest Grossing Genres:** We identified the highest grossing genres based on their financial performance. This information can assist studios in tailoring investment strategies and allocating resources effectively to genres with a proven track record of financial success.
 
 ## Business Recommendations:
 
