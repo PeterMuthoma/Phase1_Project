@@ -43,7 +43,7 @@ The dataset used for this analysis combines information from the above sources, 
 
 1. **Top Studios Based on Gross Revenue:**
 
-![Alt top genre](zippedData/most popular genre.png)
+[Alt top genre](zippedData/most popular genre.png)
 
 We identified the top studios based on both foreign and domestic gross revenue. Understanding the performance of leading studios can provide valuable benchmarks for other production houses and help identify potential partnerships for co-productions.
 
